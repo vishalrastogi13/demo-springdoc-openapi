@@ -1,0 +1,8 @@
+springdoc:
+  version: '@springdoc.version@'
+  swagger-ui:
+    path: "/custom-ui.html"
+  api-docs:
+    path: "/custom"
+server:
+  forward-headers-strategy: framework
